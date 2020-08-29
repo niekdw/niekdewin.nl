@@ -42,6 +42,24 @@
 	<h1>Nieks blog</h1>
 </div>
 
+<?php include('header.php'); ?>
+
+<?php
+if ($handle = opendir('posts')) {
+
+    while (false !== ($entry = readdir($handle))) {
+
+        if ($entry != "." && $entry != "..") {
+
+            echo "$entry" . date ("F d Y H:i:s.", filemtime('posts/' . $entry)) . "\n";
+        }
+    }
+
+    closedir($handle);
+}
+?>
+
+
 <h2>Archief</h2>
 <ul>
 <li>Een blog artikel</li>
