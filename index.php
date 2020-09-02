@@ -13,7 +13,7 @@ if ($handle = opendir('posts')) {
 						$entryTitle = str_replace("-"," ",$entry);
 						$entryTitle = str_replace(".php","",$entryTitle);
 						$entryTitle = ucfirst($entryTitle);
-            echo "<li><a href=\"posts/" . $entry . "\">" . $entryTitle . "</a> <span class=\"entryDate\">"  . date ("d-m-Y", filemtime('posts/' . $entry)) . "</span></li>";
+            echo "<li><a href=\"posts/" . $entry . "\">" . $entryTitle . "</a> <span class=\"entryDate\">"  . date ("d-m-Y", filectime('posts/' . $entry)) . "</span></li>";
         }
     }
 

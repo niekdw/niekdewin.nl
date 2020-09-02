@@ -6,7 +6,7 @@ $actual_link = "https://$_SERVER[HTTP_HOST]";
 <html lang='nl'>
 
 <head>
-  <title>Niek de Win</title>
+  <title>Nieks blog</title>
   <link rel="stylesheet" type="text/css" href="<?php echo $actual_link; ?>/style.css">
 </head>
 

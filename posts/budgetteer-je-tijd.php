@@ -1,6 +1,6 @@
 <?php include('../header.php'); ?>
 
-<h2 id="budgetteer-je-tijd">Budgetteer je tijd</h2>
+ <h2 id="budgetteer-je-tijd">Budgetteer je tijd</h2>
 <p>Aandacht is schaars. Afleiding is er in onvervloed. En steeds meer bedrijven concurreren om die schaarse aanbod. Met steeds interessantere, prikkelende en verslavende diensten.</p>
 <p>Aandacht is één van de meest schaarse bezitten. Dagelijks is er een eindige hoeveelheid tot je beschikking. Meer dan ooit is het latig om te bepalen waar je aandacht aan geeft. De keuze wordt steeds groter. Aan nieuws dat altijd schreeuwend urgent oogt, ongeacht van wat er precies in de wereld gebeurt. Aan entertainment; Netflix, YouTube gepaard met steeds verfijndere algoritmes zodat er altijd wat te zien is bij jou past. Aan de overvloed van notificaties die continu je digitale leven binnensluipen, emails, apps, en zo verder.</p>
 <p>Er zijn verschillende strategiëen te bedenken die hierop zijn toe te passen. Eén daarvan is te pogen alle prikkels zoveel mogelijk te minimalizeren. Geen nieuws, je smartphone uitbannen, Netflix afzweren. Randvoorwaardelijk is hierbij onuitputtelijke wilskracht. Om continu de verleiding van afleiding te weerstaan. Je voelt hem al aan; dat is vaak geen haalbare, structurele strategie.</p>
@@ -14,7 +14,4 @@
 <li>Batchen van gelijkwaardige taken zoals telefoontjes en administratieve handelingen</li>
 <li><em>Timen</em> van type activiteiten: uitdagend werk vroeg, als je nog fris bent; en routineklusjes aan het einde van de dag</li>
 </ul>
-
-<?php include('../footer.php'); ?>
-
-
+<?php include('../footer.php'); ?> 
