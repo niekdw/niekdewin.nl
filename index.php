@@ -1,8 +1,13 @@
 <?php 
 include('header.php'); ?>
 
+<div id="intro">
+<h2>Publiek notitieboek</h2>
+Vind hier notities, gedachtespinsels, losse flarden. Soms ietwat gepolijster materiaal. Veelal niet.
+</div>
 
-<h2>Archief</h2>
+<div id="archive">
+<strong>Archief</strong>
 <ul>
 <?php
 if ($handle = opendir('posts')) {
@@ -21,6 +26,7 @@ if ($handle = opendir('posts')) {
 }
 ?>
 </ul>
+</div>
 
 <?php include('footer.php'); ?>
 

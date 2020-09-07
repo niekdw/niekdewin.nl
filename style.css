@@ -12,8 +12,24 @@ body {
 	font-family: 'Roboto', sans-serif;
   color: #333;
 }
+strong {
+	text-transform: uppercase;
+}
+a { 
+	border-bottom-color: var(--color-link-underline);
+	color: var(--color-link);
+	text-decoration: none;
+}
+nav {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.86rem;	
+	text-align: center;
+}
 
-p, ul, li {
+#intro h2 {
+	padding-top: 2rem !important;
+}
+p, ul, li, #intro {
 	font-family: Georgia, serif;
 	font-size: 18px;
 }
@@ -45,9 +61,15 @@ h2 {
 
 h1, h2 {
 	font-weight: 700;
-	font-family: Helvetica, Arial, sans-serif;
   margin: 0.1rem;
+	font-family: Helvetica, Arial, sans-serif;
   padding: 0.1rem;
+}
+
+#intro {
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 header h1 {
@@ -66,13 +88,13 @@ header h2 {
 header {
   padding: 1rem 0rem 0.5rem 0rem;
   border-bottom: 1px solid #e7e7e7;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 footer {
-  padding: 1.5rem 0rem 1.5rem 0rem;
+  padding: 1.8rem 0rem 1.5rem 0rem;
   border-top: 1px solid #e7e7e7;
-  margin: 2.5rem 0 0 0;
+  margin: 2.9rem 0 0 0;
   text-align: center;
 }
 header a {

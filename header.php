@@ -14,6 +14,7 @@ $actual_link = "https://$_SERVER[HTTP_HOST]";
 <div id="container">
 
 <header>
-      <h1><a href="<?php echo $actual_link; ?>">Nieks blog</a></h1>
-      <h2>Publiek notitieboek</h2>
+	<nav>
+      <a href="<?php echo $actual_link; ?>">HOME</a> • <a href="mailto:mail@niekdewin.nl">CONTACT</a>
+	</nav>
 </header>
